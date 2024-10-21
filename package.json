@@ -1,0 +1,20 @@
+{
+  "name": "03-task-manager",
+  "version": "1.0.0",
+  "description": "A Code Along for a Node Task Manager that connects to MongoDB to store data.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Nico Diaz",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
